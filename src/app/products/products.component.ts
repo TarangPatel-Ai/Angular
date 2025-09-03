@@ -11,4 +11,9 @@ export class ProductsComponent {
     name = 'Samsung Galaxy F13';
     price = 12000;
     description = 'Description of Product 1';
+    addToCart() {
+        alert(`${this.name} has been added to your cart!`);
+    }
+
+
 }
